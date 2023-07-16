@@ -1,0 +1,34 @@
+.header {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.left a {
+  color: #d60100;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.right a {
+  margin-left: 15px;
+  color: dimgrey;
+  font-weight: 500;
+}
+@media (max-width: 900px) {
+  .header {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 10px;
+  }
+}
+.bb {
+  border-bottom: #e95d51 solid 2px;
+}

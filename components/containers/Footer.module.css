@@ -1,0 +1,16 @@
+.footer {
+  /*background-color: #e3868693;*/
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+  /* margin-top: 30px; */
+}
+
+.footer a {
+  color: dimgrey;
+  font-weight: 500;
+  text-decoration: none;
+}
+.bt {
+  border-top: #e95d51 solid 2px;
+}
